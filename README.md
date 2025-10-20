@@ -1,7 +1,7 @@
 # AI-recognition-system
 Model AI który rozpoznaje 10 fraz. Projekt edukacyjny, w którym zwrócimy uwagę na metody niszczenia modeli AI (injections) i przeprowadzenie postmortem analysis. 
 # Cel-Projektu
-Nauka tworzenia modeli AI, które rozpoznają 10 fraz.
+Projekt edukacyjny poświęcony tworzeniu i testowaniu bezpieczeństwa modeli AI. 
 # Etapy-Projektu
 1. Stworzenie modelu
    - Znalezienie bazy danych z próbkami, do nauki modelu lub stworzenie tych danych za pomocą narzędzi TTS.
