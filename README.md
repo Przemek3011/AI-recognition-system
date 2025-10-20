@@ -10,6 +10,6 @@ Projekt edukacyjny poświęcony tworzeniu i testowaniu bezpieczeństwa modeli AI
 2. Testowanie modelu
    - Testowanie bezpieczeństwa modelu (artykuły OWASP: https://genai.owasp.org/llm-top-10)
    - Biblioteki i Frameworki do testowania modelu (np. https://github.com/Trusted-AI/adversarial-robustness-toolbox)
-3. Analiza postmortem
+3. Analiza postmortem i naprawa zainfekowanego modelu
    - Narzędzia do analizy postmortem (np. https://github.com/evidentlyai/evidently)
 
