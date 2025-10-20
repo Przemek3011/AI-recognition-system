@@ -1,5 +1,5 @@
 # AI-recognition-system
-Model AI który rozpoznaje 10 fraz. Projekt edukacyjny, w którym zwrócimy uwagę na metody testowania bezpieczeństwa modeli AI (injections) i przeprowadzenie analizy postmortem . 
+Model AI który rozpoznaje 10 fraz. Projekt edukacyjny, w którym zwrócimy uwagę na metody testowania bezpieczeństwa modeli AI (injections) i przeprowadzenie analizy postmortem. 
 # Cel-Projektu
 Projekt edukacyjny poświęcony tworzeniu i testowaniu bezpieczeństwa modeli AI. 
 # Etapy-Projektu
