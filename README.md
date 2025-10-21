@@ -22,15 +22,15 @@ Projekt edukacyjny poświęcony tworzeniu i testowaniu bezpieczeństwa modeli AI
 - **Google Speech Commands DataSet** *Dane do uczenia modelu*
 
 # Podział prac
-1. Model & Data
+1. Model & Data (Przemek)
    - Architektura modelu
    - Wyszukiwanie/generacja zbioru danych
    - Preprocessing audio
-2. Security
+2. Security (Konstantin)
    - Testy bezpieczeństwa
    - Przeprowadzenie ataków/injekcji
    - Analiza możliwości ulepszenia modelu
-3. Analysis
+3. Analysis (Janek)
    - Analiza precyzji modelu
    - Wizualizacja wyników
    - Analiza postmortem
@@ -47,42 +47,42 @@ Zaprojektowanie modelu, zbiór danych, przygotowywanie do testów i ataków
 
 #### Iteracja 2 (Tyg. 3-5)
 Implementacja pierwszej wercji projektu, przeprowadzenie ataków
-1.
+Przemek:
 - Implementacja i trenowanie modelu 
 - Ekstrakcja cech audio
 - Ewaluacja skuteczności modelu (accuracy, loss) 
-2.
+Konstantin:
 - Przygotowanie środowiska testowego
 - Implementacja pierwszych ataków
 - Testy wpływu ataków na wczesną wersję modelu 
-3.
+Janek
 - Analiza wyników modelu i wizualizacja metryk 
 - Porównanie skuteczności między wersjami modelu  
 - Przygotowanie wstępnych raportów analitycznych
 
 #### Iteracja 3 (Tyg. 6-7)
 Próba udoskonalenia modelu i zabezpieczenia przed injekcjami
-1.
+Przemek:
 - Retraining modelu po atakach 
 - Udoskonalenie architektury i augmentacja danych 
 - Analiza stabilności modelu 
-2.
+Konstantin:
 - Rozszerzenie testów bezpieczeństwa (PGD, poisoning)
 - Implementacja metod obron (adversarial training) 
 - Ocena skuteczności mechanizmów ochrony 
-3.
+Janek:
 - Analiza postmortem po atakach 
 - Wykrywanie driftu modelu i zmian w danych  
 - Wizualizacja porównawcza „przed” i „po” ataku
 
 #### Iteracja 4 (Tyg. 8-9)
 Analiza wyników, doprecyzowanie i optymalizacja modelu
-1.
+Przemek:
 - Optymalizacja finalnego modelu i zapis wersji produkcyjnej  
 - Wsparcie przy integracji wyników analitycznych 
-2.
+Konstantin:
 - Opracowanie końcowego raportu bezpieczeństwa 
 - Podsumowanie wszystkich testów i podatności 
-3.
+Janek:
 - Opracowanie końcowej analizy i wniosków  
 - Stworzenie prezentacji projektu i raportu końcowego
