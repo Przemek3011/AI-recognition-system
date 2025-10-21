@@ -47,42 +47,42 @@ Zaprojektowanie modelu, zbiór danych, przygotowywanie do testów i ataków
 
 #### Iteracja 2 (Tyg. 3-5)
 Implementacja pierwszej wercji projektu, przeprowadzenie ataków
-Przemek:
+#### Przemek:
 - Implementacja i trenowanie modelu 
 - Ekstrakcja cech audio
 - Ewaluacja skuteczności modelu (accuracy, loss) 
-Konstantin:
+#### Konstantin:
 - Przygotowanie środowiska testowego
 - Implementacja pierwszych ataków
 - Testy wpływu ataków na wczesną wersję modelu 
-Janek
+#### Janek:
 - Analiza wyników modelu i wizualizacja metryk 
 - Porównanie skuteczności między wersjami modelu  
 - Przygotowanie wstępnych raportów analitycznych
 
 #### Iteracja 3 (Tyg. 6-7)
 Próba udoskonalenia modelu i zabezpieczenia przed injekcjami
-Przemek:
+#### Przemek:
 - Retraining modelu po atakach 
 - Udoskonalenie architektury i augmentacja danych 
 - Analiza stabilności modelu 
-Konstantin:
+#### Konstantin:
 - Rozszerzenie testów bezpieczeństwa (PGD, poisoning)
 - Implementacja metod obron (adversarial training) 
 - Ocena skuteczności mechanizmów ochrony 
-Janek:
+#### Janek:
 - Analiza postmortem po atakach 
 - Wykrywanie driftu modelu i zmian w danych  
 - Wizualizacja porównawcza „przed” i „po” ataku
 
 #### Iteracja 4 (Tyg. 8-9)
 Analiza wyników, doprecyzowanie i optymalizacja modelu
-Przemek:
+#### Przemek:
 - Optymalizacja finalnego modelu i zapis wersji produkcyjnej  
 - Wsparcie przy integracji wyników analitycznych 
-Konstantin:
+#### Konstantin:
 - Opracowanie końcowego raportu bezpieczeństwa 
 - Podsumowanie wszystkich testów i podatności 
-Janek:
+#### Janek:
 - Opracowanie końcowej analizy i wniosków  
 - Stworzenie prezentacji projektu i raportu końcowego
