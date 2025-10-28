@@ -86,3 +86,20 @@ Analiza wyników, doprecyzowanie i optymalizacja modelu
 #### Janek:
 - Opracowanie końcowej analizy i wniosków  
 - Stworzenie prezentacji projektu i raportu końcowego
+  #1 iteracja (tak +/-)
+  Ep 39 | train_loss=0.986 | val_acc=0.607
+  ↳ zapisano model: kws_model.pt (best_acc=0.607)
+
+  lang1.py tworzy z pipera slowa tts
+  document.py segreguje te slowa do folderu dane
+  train.py tworzy i testuje model
+  tworzenie modelu:
+  python3 train.py train --data_dir data --epochs 25
+  testowanie modelu:
+  python3 train.py infer --model kws_model.pt --wav path/to/test.wav
+  slowa label na modelu:
+   Klasy: ['cześć_siri', 'posprzątaj_pokój', 'poucz_się', 'przygotuj_obiad', 'wynieś_śmieci', 'wyprowadź_psa', 'zrób_zakupy']
+
+  
+  
+  
